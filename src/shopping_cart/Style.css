@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    }
+    body{
+    
+    width:100%;
+    
+    }
+    h1{
+        text-align: center;
+        width: 100%;
+        padding: 2%;
+        color:white;
+        background-color: black;
+ 
+    }
+    .container{
+     
+        width:80%;
+        margin:2% auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;	
+    }
+    
+    .cart1{
+        margin:15px;
+        overflow:hidden;
+        width:30%;
+        border-radius: 15px 15px 4px 4px;
+        background-color:white;
+        margin-bottom: 2%;
+        box-shadow: 5px 10px 18px #888888;
+        }
+      
+    .container img{
+       
+        height: 200px;
+       
+    }
+    h4{
+            padding:30px 30px 0px 30px;
+            color:#777;
+            font-size:20px;
+            text-align: center;
+        }
+    p{
+            padding:5px 20px 10px 20px;
+            color:#777;
+            font-size:20px;text-align: center;
+
+        }
+			
+        @media screen and (max-width:1124px){
+            .container{
+                        width:100%;	
+                    }
+                    .cart1{
+                        width:46%;
+                        }
+              
+            }
+            @media screen and (max-width:800px){
+                    .container{
+                        width:100%;
+                    }
+                    .cart1{
+                        width:45%;
+                        }	
+            }
+            
+            @media screen and (max-width: 600px){
+                     .container{
+                        width:100%;
+                        flex-direction: column;
+                        margin:5% auto;
+                    }
+                    .cart1{
+            
+                        width:auto;
+                        }
+                        h1{
+                           
+                            font-size: 15px;
+                            color:white;
+                            background-color: black;
+                         
+                        }
+                }
